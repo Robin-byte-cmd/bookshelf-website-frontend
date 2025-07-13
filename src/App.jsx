@@ -9,7 +9,7 @@ import './App.css'
 import heroBg from './assets/hero-bg.jpg'
 
 // Define the base URL for your Flask API
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://bookshelfhub.pythonanywhere.com';
 
 function App() {
   const [books, setBooks] = useState([]);
